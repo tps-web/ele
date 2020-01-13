@@ -53,14 +53,14 @@ import BScroll from 'better-scroll'
 import {mapState} from 'vuex'
 import Swiper from 'swiper'
 import 'swiper/dist/css/swiper.min.css'
-
+// 添加注释
 import HeaderTop from '../../components/HeaderTop/HeaderTop.vue'
 import ShopList from '../../components/ShopList/ShopList.vue'
-
+// 添加注释
 export default {
   data () {
     return {
-      baseImageUrl: 'https://fuss10.elemecdn.com'
+      baseImageUrl: 'https://fuss10.elemecdn.com' // 添加注释
     }
   },
   mounted () {
@@ -115,7 +115,7 @@ export default {
 
       // 界面更新就立即创建Swiper对象
       this.$nextTick(() => { // 一旦完成界面更新, 立即调用(此条语句要写在数据更新之后)
-        // 创建一个Swiper实例对象, 来实现轮播
+        // 创建一个Swiper实例对象, 来实现轮播 // 添加注释
         new Swiper('.swiper-container', {
           loop: true, // 可以循环轮播
           // 如果需要分页器
@@ -136,7 +136,7 @@ export default {
     ShopList
   }
 }
-// 添加注释
+
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">
