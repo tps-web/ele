@@ -60,7 +60,7 @@ import ShopList from '../../components/ShopList/ShopList.vue'
 export default {
   data () {
     return {
-      baseImageUrl: 'https://fuss10.elemecdn.com' // 添加注释
+      baseImageUrl: 'https://fuss10.elemecdn.com' // 添加注释阿峰
     }
   },
   mounted () {
